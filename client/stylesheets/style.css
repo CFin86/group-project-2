@@ -1,0 +1,278 @@
+body{
+ /*margin: 0px auto;*/
+    z-index:0;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        background: rgb(194, 214, 214);
+}
+/* Taylor, what is this? */
+.popupShop {
+    color: navy;
+    border-image: round;
+}
+
+.jumbotron{
+background: url("/images/backgroundMaster2.jpg")no-repeat center center fixed;
+/* padding-bottom: 6rem !important; */
+}
+
+.jumbotron h1 {
+    font-size: 4rem !important;
+}
+.jumbotron h2 {
+    font-size: 2.5rem !important;
+    margin: 10px 5px 8px 5px;
+}
+.start-box{
+    margin-top:65px;
+    background: #F7F7F7;
+    color: black;
+    width: 400px;
+    height: auto;
+    float: left;
+    text-align: center;
+    max-width: 100%;
+    border-radius: 10px;
+}
+b, strong{
+    color: royalblue;
+}
+#startBtn{
+    margin-bottom: 6px;
+}
+
+img.img-responsive{
+    height: 85px;
+    width: 100%;
+}  
+.row h2{
+    font-size: 1.5rem !important;
+}
+.row p{
+    font-size: 1.25rem !important;
+}
+IMG {
+    border-radius: 10px;
+}
+/* message modal styling*/
+#messageBox{
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+.modal-content {
+    color: black !important;
+    background: #F7F7F7;
+    display: block;
+}
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+   text-align: center;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+/* navbar styling */
+.navbar-inverse{
+  background: rgb(36,45,52)9F;
+   opacity: 0.95;
+    filter: alpha(opacity=60);
+}
+.navbar-brand {
+    padding: 15px 15px 5px 5px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: rgb(36,45,52);
+     opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: rgb(36,45,52);
+     opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+/* start of create account header */
+ol.breadcrumb{
+    padding-top: 13px;
+}
+
+/* start of create Account styles */
+
+#logoDiv{
+    position: absolute;
+    left: 50%;
+    margin-left: -47px;
+    width: 94px;
+    height: 94px;
+    font-size: 18px;
+    top: 20px;
+    margin-top: 33px;
+    background-color: red;  
+    border: 3px solid blue;
+    border-radius: 5px;
+    -webkit-box-pack: center;
+    color: white;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+    .wrapper{
+    border: 3px solid blue;
+    height:auto;
+    width: 400px;
+    max-width: 100%;
+    position: absolute;
+    top:25rem;
+    left: 50%;
+    margin-left: -175px;
+} 
+#signup-form{
+    margin: 0px 10px 0px 10px;
+}
+h2.newAccount{
+     text-align: center;
+}
+h2.newAccount2{
+    margin: 10px 0px 20px 0px;
+     text-align: center;
+}
+#zipcode{
+ margin-bottom:15px; 
+    }
+.panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.pl-ziro { 
+    padding-left: 0px;
+ }
+#expiryMonth{
+    margin-top: 5px;
+}
+#signUpBtn{
+ left: 50%;
+    position: relative; 
+    margin-left: -85px;
+
+    }
+/* footer styles */
+.navbar-fixed-bottom{
+    background: lightblue;
+    top: 80rem;
+}
+.rowBottom{
+    padding-top: 0.5rem;
+    padding-bottom: 1.2rem;
+}
+.copyRight{
+    padding-top: 1rem;
+}

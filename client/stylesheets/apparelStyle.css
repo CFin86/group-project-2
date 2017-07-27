@@ -1,0 +1,124 @@
+body{
+    padding:50px 0px 0px 0px;
+    margin: 0px auto;
+    z-index:0;
+   background: rgb(47,58,64);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        color: white;
+}
+
+.jumbotron {
+    margin: 0px auto;
+    padding: 170px 30px 62px;
+    background: url("/../images/Misc/covalence-store-apparel-hero.jpg")no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*height: 100vh;*/
+        color: white;
+    z-index: -1;
+}
+.col-xs-6.products.ng-scope {
+    border-radius: 10px;
+    color: white;  
+    width: 100%;
+    height: auto;
+    
+}
+IMG {
+    border-radius: 10px;
+    /*margin: 5px;*/
+}
+#frntpageBtn {
+margin-top: 18px;
+}
+#cartBtn{
+    margin-top: 15px;
+}
+#sel1{
+    border: 2px solid #ccc; 
+    color: black;
+}
+#sel2{
+    border: 2px solid #ccc; 
+    color: black;
+}
+.navbar-inverse{
+  background: rgb(36,45,52)9F;
+  
+   opacity: 0.95;
+    filter: alpha(opacity=60);
+}
+.navbar-brand {
+    padding: 10px 15px 5px 5px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: rgb(36,45,52);
+     opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: rgb(36,45,52);
+     opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+/*.total {
+   background: rgb(91,192,222) ;
+ color: #fff;
+ cursor: pointer;
+ display: inline-block;
+ font-size: 15px;
+   line-height: 40px;
+   min-width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin: 0 -30px 0 40px;
+   text-align: center;
+   font-weight: 200;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+   transition: background 500ms;
+}
+
+.total:hover {
+ color: #fff;
+   background: rgb(20,144,172);
+     opacity: 0.5;
+   transition: background 500ms;
+}*/
+
+
+   /*h2 {
+       color: white;
+   }
+   h3 {
+       color: white;
+   }
+   h5 {
+        color: white;
+   } */
+.popupShop {
+    color: navy;
+    border-image: round;
+}
+.modal-content {
+    color: teal !important;
+    background: #fff;
+    display: block;
+    
+}
+.center-block {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+ }
