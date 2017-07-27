@@ -1,0 +1,32 @@
+{
+  "name": "fs-sp17-gproject-2",
+  "version": "1.0.0",
+  "description": "### Due: Monday, April 17, 2017",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CFin86/group-project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CFin86/group-project-2/issues"
+  },
+  "homepage": " https://github.com/CFin86/group-project-2#readme",
+ 
+  "dependencies": {
+    "angular": "^1.6.5",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "live-server": "^1.2.0",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7",
+    "prerender-node": "^2.7.2",
+    "sendgrid": "^5.1.2",
+    "stripe": "^4.23.1"
+  }
+}
